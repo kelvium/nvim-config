@@ -1,0 +1,21 @@
+# conditionals
+snippet if
+	if (${1}) {
+		${0:${VISUAL}}
+	}
+snippet ife
+	if (${1}) {
+		${2:${VISUAL}}
+	} else {
+		${0}
+	}
+snippet el
+	else {
+		${0:${VISUAL}}
+	}
+snippet elif
+	else if (${1}) {
+		${0:${VISUAL}}
+	}
+snippet t
+	$1 ? $2 : $0
