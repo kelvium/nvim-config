@@ -1,0 +1,11 @@
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.smartindent = true
+vim.opt.nu = true
+vim.opt.relativenumber = true
+vim.opt.wrap = false
+vim.opt.incsearch = true
+vim.opt.updatetime = 50
+vim.opt.splitbelow = true
+vim.opt.splitright = true
+vim.g.mapleader = ','
