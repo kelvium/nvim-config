@@ -46,6 +46,7 @@ require('packer').startup(function(use)
 		},
 		{ 'ray-x/lsp_signature.nvim' },
 	})
+	use('gpanders/editorconfig.nvim')
 
 	if packer_bootstrap then
 		require('packer').sync()
