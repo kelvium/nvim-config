@@ -14,7 +14,6 @@ local packer_bootstrap = ensure_packer()
 require('packer').startup(function(use)
 	use('wbthomason/packer.nvim')
 	use('aditya-azad/candle-grey')
-	use('Shatur/neovim-ayu')
 	use({
 		'nvim-treesitter/nvim-treesitter',
 		run = function()
