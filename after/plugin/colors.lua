@@ -1,6 +1,6 @@
 vim.opt.background = 'dark'
 vim.opt.termguicolors = true
-vim.cmd('colorscheme candle-grey-transparent')
+vim.cmd('colorscheme quiet')
 
--- test
-vim.cmd("hi Comment ctermfg=Gray ctermbg=NONE cterm=NONE guifg=#9a9a9a guibg=NONE gui=NONE")
+vim.cmd('hi Normal guifg=#ffffff')
+vim.cmd('hi Normal guibg=#000000')
