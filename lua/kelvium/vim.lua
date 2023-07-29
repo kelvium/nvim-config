@@ -11,4 +11,5 @@ vim.opt.updatetime = 50
 vim.opt.splitbelow = true
 vim.opt.splitright = true
 vim.opt.cinoptions = 'N-s'
+vim.opt.ignorecase = true
 vim.g.mapleader = ','
