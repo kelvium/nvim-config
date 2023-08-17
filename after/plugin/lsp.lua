@@ -28,6 +28,7 @@ local servers = {
 			})
 	end
 	},
+	rust_analyzer = {},
 }
 
 vim.keymap.set('n', '<space>e', vim.diagnostic.open_float)
