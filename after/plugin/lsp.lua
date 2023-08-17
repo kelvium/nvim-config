@@ -9,7 +9,6 @@ local servers = {
 			'clangd',
 			'-j=14',
 			'--background-index',
-			'--clang-tidy',
 			'--completion-style=bundled',
 			'--pch-storage=memory',
 			'--header-insertion=never',
