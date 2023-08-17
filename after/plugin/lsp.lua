@@ -7,7 +7,7 @@ local servers = {
 	clangd = {
 		cmd = {
 			'clangd',
-			'-j=6',
+			'-j=14',
 			'--background-index',
 			'--clang-tidy',
 			'--completion-style=bundled',
