@@ -149,6 +149,7 @@ require("lazy").setup({
 			"saadparwaiz1/cmp_luasnip",
 			"L3MON4D3/LuaSnip",
 		},
+		event = {"BufReadPre", "BufNewFile"},
 		config = function()
 			local cmp = require("cmp")
 			local lspconfig = require("lspconfig")
