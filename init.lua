@@ -14,6 +14,8 @@ vim.g.mapleader = ","
 vim.opt.background = "dark"
 vim.opt.termguicolors = true
 
+vim.g.rust_recommended_style = false
+
 vim.cmd('colorscheme quiet')
 
 local lsp_servers = {
