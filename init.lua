@@ -15,6 +15,7 @@ vim.opt.background = "dark"
 vim.opt.termguicolors = true
 
 vim.g.rust_recommended_style = false
+vim.g.meson_recommended_style = false
 
 vim.cmd('colorscheme quiet')
 
