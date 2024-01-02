@@ -15,9 +15,11 @@ vim.opt.background = "dark"
 vim.opt.termguicolors = true
 
 vim.g.rust_recommended_style = false
+vim.g.zig_recommended_style = false
+vim.g.zig_fmt_autosave = false
 vim.g.meson_recommended_style = false
 
-vim.cmd('colorscheme quiet')
+vim.cmd('colorscheme koehler')
 
 local lsp_servers = {
 	clangd = {
